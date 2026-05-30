@@ -1,7 +1,7 @@
 <?php
 $dsn = 'mysql:host=localhost;dbname=deboengineeringc_coffee_control';
 $username = 'deboengineeringc'; // Your MySQL username
-$password = 's0QR~a)GVK50'; // Your MySQL password
+$password = ''; // REPLACED: credentials removed (store secrets in environment variables or non-public config)
 
 try {
     $pdo = new PDO($dsn, $username, $password);

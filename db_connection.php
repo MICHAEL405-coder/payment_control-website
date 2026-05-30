@@ -2,7 +2,7 @@
 <?php
 $servername = "localhost";
 $username = "deboengineeringc"; // Updated username
-$password = "s0QR~a)GVK50"; // Updated password
+$password = ''; // NOTE: credentials removed; use env vars / non-public config
 $dbname = "deboengineeringc_coffee_control"; // Updated database name
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);

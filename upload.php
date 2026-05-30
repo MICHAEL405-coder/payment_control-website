@@ -6,7 +6,7 @@ use PhpOffice\PhpSpreadsheet\IOFactory;
 // Database configuration
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = ""; // NOTE: credentials removed; use env vars / non-public config
 $dbname = "coffee_control";
 
 // Create connection

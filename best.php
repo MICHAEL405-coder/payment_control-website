@@ -6,7 +6,7 @@ use PhpOffice\PhpSpreadsheet\IOFactory;
 // Database configuration
 $servername = "localhost";
     $username = "deboengineeringc"; // Updated username
-    $password = "s0QR~a)GVK50"; // Updated password
+    $password = ''; // REPLACED: credentials removed (use env vars / non-public config)
     $dbname = "deboengineeringc_coffee_control"; // Updated database name
 
 // Create connection

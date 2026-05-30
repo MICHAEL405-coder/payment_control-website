@@ -2,7 +2,7 @@
 // Define your database connection parameters
 $host = 'localhost'; // Your database host
 $user = 'root'; // Your database username
-$pass = ''; // No password
+$pass = ''; // NOTE: credentials removed; use env vars / non-public config
 $db = 'coffee_control'; // Your database name
 
 // Create a new MySQLi instance

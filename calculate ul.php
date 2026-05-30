@@ -2,7 +2,7 @@
 // Database connection
 $servername = "localhost";
 $username = "deboengineeringc";
-$password = "s0QR~a)GVK50";
+$password = ''; // REPLACED: credentials removed (use env vars / non-public config)
 $dbname = "deboengineeringc_coffee_control";
 
 // Create connection
