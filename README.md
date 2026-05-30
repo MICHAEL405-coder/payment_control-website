@@ -42,6 +42,9 @@ The application follows a traditional PHP web application architecture:
 
 ### Prerequisites
 
+> Note: This project expects database credentials to be provided securely (for example via environment variables or a server-specific, non-committed config). Do not commit real secrets to Git.
+
+
 * PHP 7.x or later
 * MySQL Server
 * Web Server (Apache, XAMPP, WAMP, or similar)
@@ -89,7 +92,15 @@ The application follows a traditional PHP web application architecture:
 * `vendor/` – Composer dependencies
 * `PHPExcel-1.8/` – Excel processing library
 
+## Screenshots
+
+![Insert Page](screenshots/insert.png)
+![About Us Page](screenshots/aboutus.png)
+![Change Password Page](screenshots/changepassword.png)
+![Upload Page](screenshots/upload.png)
+
 ## Database
+
 
 This project uses a local MySQL database server for storing and managing coffee-related operational data.
 
