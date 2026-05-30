@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('coffee.jpg'); /* Replace 'background.jpg' with your image file path */
+        background-size: cover; /* Cover the entire background */
+        background-position: center; /* Center the background image */
+        background-attachment: fixed; /* Fixed background image */
+        color: #333; /* Text color */
+    }
+
+/* Navbar styles */
+.navbar {
+    background-color:slategray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Dropdown styles */
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0074d9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+    .background-image{
+        background-image: url('./"C:Users\micha\Downloads\coffee-4388065_1280.jpg"');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width:200px;
+        height: 100vh;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f; /* Fallback color */
+        color: #333;
+    }
+    .navbar {
+        background-color:burlywood;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    .navbar a {
+        text-decoration: none;
+        color: white;
+        padding: 10px 15px;
+    }
+    .navbar a:hover {
+        background-color:bisque;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: burlywood;
+        min-width: 160px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        background-color: #795353;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+.background-image{
+    background-image: url('C:/Users/micha/Downloads"');
+}
+
